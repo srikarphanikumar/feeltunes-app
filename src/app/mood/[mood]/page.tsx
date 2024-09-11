@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import Link from 'next/link';
-import { ArrowLeft, Play, Heart, Clock } from 'lucide-react';
+import { ArrowLeft, Play, Heart } from 'lucide-react';
 
 const playlists = [
     { id: 1, name: "Top Hits", songs: 50, image: "/api/placeholder/200/200" },

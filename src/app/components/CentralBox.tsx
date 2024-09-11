@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Search, Bell, Share2, Shuffle, LogIn } from 'lucide-react';
 import Tooltip from './Tooltip';
 import { User as FirebaseUser } from 'firebase/auth';
+import Image from 'next/image';
 
 interface CentralBoxProps {
     user: FirebaseUser | null | undefined;
@@ -45,7 +46,7 @@ const CentralBox: React.FC<CentralBoxProps> = ({ user }) => {
                 </Tooltip>
                 {user ? (
                     <Tooltip content="Profile">
-                        <img
+                        <Image
                             src={user.photoURL || '/default-avatar.png'}
                             alt="User"
                             className="w-10 h-10 rounded-full border-2 border-white cursor-pointer hover:border-indigo-200"

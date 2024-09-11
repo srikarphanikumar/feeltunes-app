@@ -10,7 +10,7 @@ import {
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { auth } from '../lib/firebase';
 import CentralBox from './components/CentralBox';
-import { User as FirebaseUser } from 'firebase/auth';
+// import { User as FirebaseUser } from 'firebase/auth';
 
 interface Mood {
     name: string;
