@@ -25,3 +25,27 @@ body {
         text-wrap: balance;
     }
 }
+
+@font-face {
+    font-family: 'Tomatoes';
+    src: url('/fonts/Tomatoes.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Attraction';
+    src: url('/fonts/Attraction.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Shalma';
+    src: url('/fonts/Shalma.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

@@ -16,6 +16,11 @@ const config: Config = {
                 'none': 'none',
                 'blur': 'blur(20px)',
             },
+            fontFamily: {
+                'tomatoes': ['Tomatoes', 'cursive'],
+                'attraction': ['Attraction', 'cursive'],
+                'shalma': ['Shalma', 'cursive']
+            },
         },
     },
     plugins: [
